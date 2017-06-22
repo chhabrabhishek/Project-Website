@@ -1,2 +1,2 @@
 # Project-Website
-Starting to make a website where the publishers will meet advertiser .
+Starting to make a website where the publishers will meet advertisers .

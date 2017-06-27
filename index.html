@@ -1,151 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-<head>
-	<title>
-		Index|Type
-	</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
-</head>
-<style type="text/css">
-  .w3-allerta {
-  font-family: "Allerta Stencil", Sans-serif;
-}
+   <html>
+      <head>
+         <title>
+            Index|Type
+         </title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+      </head>
+      <style type="text/css">
+         .w3-allerta {
+         font-family: "Allerta Stencil", Sans-serif;
+         }
+         .jumbotron{
+         padding-left: 100px;
+         padding-top: 180px;
+         background-image: url('background2.jpg');
+         color: white;
+         font-size: 40px;
+         width: 100%;
+         height: 725px;
+         background-repeat: no-repeat;
+         background-size: contain;
+         }
+         .nav{
+         padding-top: 25px;
+         padding-left: 200px;
+         }
+         .navbar-header{
+         padding-left: 100px;
+         padding-top: 22px;
+         }
+         .dropdown-menu{
+         background: black;
+         opacity: 0.4;
+         }
+         .w3-lobster{
+         font-family: "Lobster",serif;
+         color: white;
+         }
+         .navbar-btn{
+         background: transparent;
+         padding-left: 30px;
+         padding-top: 25px;
+         color: lightblue;
+         }
+         .navbar-btn1{
+         background: transparent;
+         padding-left: 10px;
+         padding-top: 25px;
+         color: lightblue;
+         }
+         .dropdown:hover .dropdown-menu {
+         display: block;
+         }
+         .dropdown-menu li>a{color:white; opacity: 1;}
+         .dropdown-menu li>a:hover{background:transparent; opacity: 1; }
+         #changeText{
+         font-size: 42px;
+         font-weight: bold;
+         color: #1569c7;
+         font-family: "Comic Sans MS", cursive, sans-serif;
+         }
+         #thisImg{
+         border: 2px solid white;
+         border-radius: 20px;
+         background-size: contain;
+         background-repeat: no-repeat;
+         padding-left: 20px;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         padding-right: 20px;
+         height: 450px;
+         }
+         .knowhow{
+         background: transparent;
+         color: white;
+         border: 3px solid white;
+         border-radius: 20px;
+         font-family: "Comic Sans MS", cursive, sans-serif;
+         font-weight: bold;
+         padding-left: 5px;
+         padding-right: 5px;
+         }
+         .affix{
+         top: 0;
+         width: 100%;
+         }
+      </style>
+      <body style="height: 1500px">
+         <nav class="navbar navbar-fixed-top " data-spy="affix">
+            <div class="w3-container-fluid w3-lobster">
+               <div class="navbar-header">
+                  <a class="navbar-brand" href="index.html">
+                     <p class="w3-xxlarge">Website</p>
+                  </a>
+               </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav ">
+                     <li class="active">
+                        <a href="#">
+                           <p class="w3-xlarge">Home</p>
+                        </a>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                           <p class="w3-xlarge">Advertiser</p>
+                           <!--<span class="caret"></span>-->
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Overview</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Brand Marketing</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">User Acquisition</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                           <p class="w3-xlarge">Publisher</p>
+                           <!--<span class="caret"></span>-->
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Overview</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Video Ads</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Native Ads</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                           <p class="w3-xlarge">Product</p>
+                           <!--<span class="caret"></span>-->
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Ad Experiences</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Targeting Solutions</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Remarketing</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                           <p class="w3-xlarge">Company</p>
+                           <!--<span class="caret"></span>-->
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">About Us</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Leadership</p>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#">
+                                 <p class="w3-large">Careers</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     </li>
+                  </ul>
+                  <button class="btn navbar-btn">
+                     <p class="w3-xlarge">Sign In</p>
+                  </button>
+                  <button class="btn navbar-btn1">
+                     <p class="w3-xlarge">Sign Up</p>
+                  </button>
+               </div>
+            </div>
+         </nav>
+         <div class="jumbotron w3-allerta">
+            <div class="row">
+               <div class="col-sm-7">
+                  Pioneering Mobile Discovery Through Personalised Ad Experiences  
+                  <br>
+                  <br>
+                  <h3>Website platforms leverage advanced data-sciences to help you</h3>
+                  <div id="changeText">drive brand engagement</div>
+                  <script type="text/javascript">
+                     var text=["maximize mobile revenues","acquire high value users","remarket to existing users","drive brand engagement"]
+                     var counter=0;
+                     var elem=document.getElementById("changeText")
+                     setInterval(change,4000);
+                     function change(){
+                       elem.innerHTML=text[counter];
+                       counter++;
+                       if (counter>=text.length) {counter=0;}
+                     }
+                  </script> 
+                  <p>
+                  </p>
+                  <button class="knowhow">
+                     <h3>..  Know How  ..</h3>
+                  </button>
+               </div>
+               <div class="col-sm-3">
+                  <div class="w3-card-10">
+                     <div class="card-block">
+                        <img id="thisImg" src="card1.png"/>
+                        <script type="text/javascript">
+                           $(function(){
+                            var array=new Array();
+                            array[0]="page3.png";
+                            array[1]="page2.gif";
+                            array[2]="page4.jpeg";
+                            array[3]="card1.png";
+                            var thidId=0;
+                            window.setInterval(function(){
+                              $('#thisImg').attr('src',array[thidId]);
+                              thidId++;
+                              if (thidId==4) {thidId=0;}
+                            },4000);
+                           });
+                        </script>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </html>
 
-  .jumbotron{
-    padding-left: 100px;
-    padding-top: 180px;
-    padding-bottom: -200px;
-    background-image: url('background5.jpg');
-    color: white;
-    font-size: 40px;
-    width: 100%;
-    height: 1000px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .nav{
-    padding-top: 25px;
-    padding-left: 200px;
-  }
-  .navbar-header{
-    padding-left: 100px;
-    padding-top: 22px;
-    
-  }
-  
-  .dropdown-menu{
-    background: black;
-    opacity: 0.4;
-  }
-  .w3-lobster{
-      font-family: "Lobster",serif;
-      color: white;
-    }
-    .navbar-btn{
-      background: transparent;
-      padding-left: 30px;
-      padding-top: 25px;
-      color: lightblue;
-    }
-    .navbar-btn1{
-      background: transparent;
-      padding-left: 10px;
-      padding-top: 25px;
-      color: lightblue;
-    }
-    .dropdown:hover .dropdown-menu {
-    display: block;
-}
-.dropdown-menu li>a{color:white; opacity: 1;}
-   .dropdown-menu li>a:hover{background:transparent; opacity: 1; }
-   
-   #changeText{
-    font-size: 34px;
-    font-weight: bold;
-    color: #1569c7;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-   }
-  
-</style>
-
-<body style="height: 1500px">
-  <nav class="navbar navbar-fixed-top">
-  <div class="w3-container-fluid w3-lobster">
-  <div class="navbar-header">
-  <a class="navbar-brand" href="index.html"><p class="w3-xxlarge">Website</p></a>
-    
-  </div>
-  <div class="collapse navbar-collapse" id="myNavbar">
-  <ul class="nav navbar-nav ">
-  <li class="active"><a href="#"><p class="w3-xlarge">Home</p></a>
-  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><p class="w3-xlarge">Advertiser</p><!--<span class="caret"></span>--></a>
-  <ul class="dropdown-menu">
-    <li><a href="#"><p class="w3-large">Overview</p></a></li>
-    <li><a href="#"><p class="w3-large">Brand Marketing</p></a></li>
-    <li><a href="#"><p class="w3-large">User Acquisition</p></a></li>
-  </ul>
-  </li>  
-  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><p class="w3-xlarge">Publisher</p><!--<span class="caret"></span>--></a>
-  <ul class="dropdown-menu">
-    <li><a href="#"><p class="w3-large">Overview</p></a></li>
-    <li><a href="#"><p class="w3-large">Video Ads</p></a></li>
-    <li><a href="#"><p class="w3-large">Native Ads</p></a></li>
-  </ul>
-  </li>  
-  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><p class="w3-xlarge">Product</p><!--<span class="caret"></span>--></a>
-  <ul class="dropdown-menu">
-    <li><a href="#"><p class="w3-large">Ad Experiences</p></a></li>
-    <li><a href="#"><p class="w3-large">Targeting Solutions</p></a></li>
-    <li><a href="#"><p class="w3-large">Remarketing</p></a></li>
-  </ul>
-  </li>  
-  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><p class="w3-xlarge">Company</p><!--<span class="caret"></span>--></a>
-  <ul class="dropdown-menu">
-    <li><a href="#"><p class="w3-large">About Us</p></a></li>
-    <li><a href="#"><p class="w3-large">Leadership</p></a></li>
-    <li><a href="#"><p class="w3-large">Careers</p></a></li>
-  </ul>
-  </li>  
-  </li>
-  </ul>
-  
-  <button class="btn navbar-btn"><p class="w3-xlarge">Sign In</p></button>
-  <button class="btn navbar-btn1"><p class="w3-xlarge">Sign Up</p></button>
-  </div>
-  </div>
-  </nav>
-  <div class="jumbotron w3-allerta">
-  <div class="row">
-  <div class="col-sm-7">
-   
-      Pioneering Mobile Discovery Through Personalised Ad Experiences  
-    <br>
-    <br>
-    
-      <h3>Website platforms leverage advanced data-sciences to help you</h3>
-    
-     <div id="changeText"></div>
-    <script type="text/javascript">
-      var text=["maximize mobile revenues","acquire high value users","remarket to existing users","drive brand engagement"]
-      var counter=0;
-      var elem=document.getElementById("changeText")
-      setInterval(change,4000);
-      function change(){
-        elem.innerHTML=text[counter];
-        counter++;
-        if (counter>=text.length) {counter=0;}
-      }
-    </script> 
-  </div>
-  </div>
-    </div> 
-</body>
-</html>
